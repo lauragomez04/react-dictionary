@@ -1,10 +1,16 @@
 import "./App.css";
-import "bootstrap/dist/css/bootstrap.min.css";
+import Dictionary from "./Dictionary";
 
 function App() {
   return (
     <div className="App">
-      <h1 className="text-center mt-5">Dictionary</h1>
+      <div className="container">
+        <h1 className="text-center mt-5">Dictionary</h1>
+        <main>
+          <Dictionary />
+        </main>
+        <footer className="mt-5">Designed and coded by Laura Gómez</footer>
+      </div>
     </div>
   );
 }

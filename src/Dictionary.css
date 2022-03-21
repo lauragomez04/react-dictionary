@@ -1,0 +1,14 @@
+input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #4d4c4c;
+}
+
+input:focus {
+  outline: none;
+}
+
+.bi-search {
+  border-bottom: 1px solid #4d4c4c;
+  padding: 3.5px;
+}
