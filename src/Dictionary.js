@@ -28,7 +28,9 @@ export default function Dictionary() {
         <i className="bi bi-search"></i>
         <input type="search" onChange={handleWordChange} />
       </form>
-      <Results results={results} />
+      <div className="word-results">
+        <Results results={results} />
+      </div>
     </div>
   );
 }

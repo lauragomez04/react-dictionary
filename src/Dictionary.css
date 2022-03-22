@@ -1,7 +1,13 @@
+form {
+  margin-top: 40px;
+  text-align: center;
+}
+
 input {
   background: transparent;
   border: none;
   border-bottom: 1px solid #4d4c4c;
+  width: 300px;
 }
 
 input:focus {
@@ -11,4 +17,8 @@ input:focus {
 .bi-search {
   border-bottom: 1px solid #4d4c4c;
   padding: 3.5px;
+}
+
+.word-results {
+  text-align: center;
 }

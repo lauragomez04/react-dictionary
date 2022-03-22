@@ -9,7 +9,9 @@ function App() {
         <main>
           <Dictionary />
         </main>
-        <footer className="mt-5">Designed and coded by Laura Gómez</footer>
+        <footer className="mt-5 text-center">
+          Designed and coded by Laura Gómez
+        </footer>
       </div>
     </div>
   );
