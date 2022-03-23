@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import useSound from "use-sound";
+import "./WordPhonetics.css";
 
 export default function WordPhonetics(props) {
   const soundUrl = props.info.phonetics[0].audio;
@@ -16,14 +17,16 @@ export default function WordPhonetics(props) {
 
   return (
     <div className="WordPhonetics">
-      <h2 className="mt-5 mb-3">{props.info.word}</h2>
-      <button onClick={handleClick}>
-        <span role="img" aria-label="sound icon">
-          {" "}
-          <i className="bi bi-volume-up"></i>
-        </span>
-      </button>
-      <em>{props.info.phonetics[0].text}</em>
+      <section>
+        <h2 className="mt-5 mb-3 text-capitalize">{props.info.word}</h2>
+        <button onClick={handleClick}>
+          <span role="img" aria-label="sound icon">
+            {" "}
+            <i className="bi bi-volume-up"></i>
+          </span>
+        </button>
+        <em>{props.info.phonetics[0].text}</em>
+      </section>
     </div>
   );
 }

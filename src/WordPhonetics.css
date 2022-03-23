@@ -1,0 +1,15 @@
+.WordPhonetics button {
+  background-color: var(--titles-color);
+  border: 1px solid var(--titles-color);
+  border-radius: 50%;
+  color: #9fd3c7;
+  margin-right: 10px;
+}
+
+.WordPhonetics em {
+  color: #385170;
+}
+
+.WordPhonetics h2 {
+  color: var(--titles-color);
+}

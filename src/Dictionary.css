@@ -6,7 +6,8 @@ form {
 input {
   background: transparent;
   border: none;
-  border-bottom: 1px solid #4d4c4c;
+  border-bottom: 1px solid var(--titles-color);
+  font-weight: 200;
   width: 300px;
 }
 
@@ -14,8 +15,13 @@ input:focus {
   outline: none;
 }
 
+input::placeholder {
+  color: #385170;
+}
+
 .bi-search {
-  border-bottom: 1px solid #4d4c4c;
+  border-bottom: 1px solid var(--titles-color);
+  color: var(--titles-color);
   padding: 3.5px;
 }
 
