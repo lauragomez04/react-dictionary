@@ -10,7 +10,7 @@ export default function WordPhonetics(props) {
   });
 
   const handleClick = () => {
-    setPlaybackRate(playbackRate + 0.1);
+    setPlaybackRate(playbackRate);
     play();
   };
 
