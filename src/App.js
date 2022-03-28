@@ -7,7 +7,7 @@ function App() {
       <div className="container">
         <h1 className="text-center mt-5">Dictionary</h1>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="knitting" />
         </main>
         <footer className="mt-5 mb-4 text-center">
           Designed and coded by Laura Gómez

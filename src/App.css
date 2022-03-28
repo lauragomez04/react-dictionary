@@ -2,19 +2,32 @@
 
 :root {
   --titles-color: #142d4c;
+  --secondary-color: #385170;
   --paragraph-color: #646363;
 }
 
+body {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(166, 226, 229) 0%,
+    rgb(198, 232, 221) 100.2%
+  );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 .App h1 {
-  color: var(--titles-color);
   font-family: "Playfair Display", serif;
 }
 
 .App footer {
+  color: var(--secondary-color);
   font-size: 14px;
+  font-weight: 300;
 }
 
-.App .container-fluid {
+.App .container {
   font-family: "Poppins", sans-serif;
   font-weight: 300;
+  max-width: 900px;
 }

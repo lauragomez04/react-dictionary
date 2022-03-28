@@ -1,14 +1,15 @@
 form {
-  margin-top: 40px;
+  margin-top: 60px;
   text-align: center;
 }
 
 input {
   background: transparent;
   border: none;
-  border-bottom: 1px solid var(--titles-color);
   font-weight: 200;
-  width: 300px;
+  position: relative;
+  left: 5px;
+  width: 90%;
 }
 
 input:focus {
@@ -16,15 +17,19 @@ input:focus {
 }
 
 input::placeholder {
-  color: #385170;
+  color: var(--secondary-color);
+}
+
+h1,
+h2,
+h3 {
+  color: var(--titles-color);
 }
 
 .bi-search {
-  border-bottom: 1px solid var(--titles-color);
-  color: var(--titles-color);
-  padding: 3.5px;
+  color: var(--secondary-color);
 }
 
-.word-results {
-  text-align: center;
+.input-group {
+  border-bottom: 1px solid var(--titles-color);
 }
