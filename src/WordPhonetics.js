@@ -16,7 +16,7 @@ export default function WordPhonetics(props) {
   };
 
   return (
-    <div className="flex-row mt-5 mb-3 WordPhonetics">
+    <div className="flex-row mt-5 mb-4 WordPhonetics">
       <h2 className="mt-5 mb-3 text-capitalize">{props.info.word}</h2>
       <em>{props.info.phonetics[0].text}</em>
       <button onClick={handleClick}>
