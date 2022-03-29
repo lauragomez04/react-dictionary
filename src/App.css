@@ -3,7 +3,7 @@
 :root {
   --titles-color: #142d4c;
   --secondary-color: #385170;
-  --paragraph-color: #646363;
+  --paragraph-color: #3b3b3b;
 }
 
 body {
@@ -14,10 +14,6 @@ body {
   );
   background-repeat: no-repeat;
   background-attachment: fixed;
-}
-
-.App h1 {
-  font-family: "Playfair Display", serif;
 }
 
 .App footer {

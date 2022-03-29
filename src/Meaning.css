@@ -1,0 +1,8 @@
+.Meaning p {
+  color: var(--paragraph-color);
+}
+
+.Meaning em {
+  color: var(--secondary-color);
+  font-size: 14px;
+}
