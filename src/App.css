@@ -22,6 +22,14 @@ body {
   font-weight: 300;
 }
 
+.App a {
+  color: var(--secondary-color);
+}
+
+.App a:hover {
+  color: var(--titles-color);
+}
+
 .App .container {
   font-family: "Poppins", sans-serif;
   font-weight: 300;

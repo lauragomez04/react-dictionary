@@ -10,7 +10,15 @@ function App() {
           <Dictionary defaultKeyword="flower" />
         </main>
         <footer className="mt-5 mb-4 text-center">
-          Designed and coded by Laura Gómez
+          Designed and{" "}
+          <a
+            href="https://github.com/lauragomez04/react-dictionary"
+            target="_blank"
+            rel="noreferrer"
+          >
+            coded
+          </a>{" "}
+          by Laura Gómez
         </footer>
       </div>
     </div>
